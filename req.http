@@ -1,0 +1,24 @@
+POST http://localhost:3000/api/perso HTTP/1.1
+content-type: application/json
+
+{
+  "name": "ichigo kurozaki",
+  "weapon": "zampakuto"
+}
+
+
+###
+
+GET http://localhost:3000/api/perso
+###
+
+GET http://localhost:3000/api/perso/14xaJ52fvkyc2WEA
+
+###
+PATCH http://localhost:3000/api/perso/14xaJ52fvkyc2WEA HTTP/1.1
+content-type: application/json
+
+{
+  "name": "ichigo kurozaki",
+  "weapon": "zampakuto Zangetsu"
+}
